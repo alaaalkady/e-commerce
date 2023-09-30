@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shopping card|| Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="file:///D:/websites%20edit/bootstrap/bootstrap-5.3.1-dist/css/bootstrap.min.css">
+  </head>
+  <body>
+    <header>
+        <div class=" container-fluid">
+           <div class="header-content navbar navbar-expand-lg  ">
+            <a href="index.html"class="brand navbar-brand">Market Name</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <nav class="collapse navbar-collapse" id="navbarSupportedContent" style="justify-content: end;">
+                <ul class="navbar-nav  mb-2 mb-lg-0" id="links">
+                    <li class="nav-item"><a href="login.html">Login</a></li>
+                    <li class="nav-item"><a href="register.html">Register</a></li>
+                </ul>
+                <ul class="  "  id="user_info">
+                    <li><a href="profile.html" class="nav-link active" id="user">user</a></li>
+                    <li class="shoppingcard">
+                        <i class="fa-solid fa-cart-shopping "></i>
+                        <span class="badge">  </span>
+                        <div class="cardproducts">
+                            <div></div>
+                            
+                            <a href="cardproducts.html" class="nav-link active">View All Products</a>
+                        </div>
+                    </li>
+                    <li><a href="favourits.html" class="nav-link">Favourites</a></li>
+                    <li><a href="myproducts.html" class="nav-link">My Products</a></li>
+                    <li><a href="" id="logout" class="nav-link">logout</a></li>
+                </ul>
+            </nav>
+           </div>
+        </div>
+    </header>
+
+    <section class="home">
+        <div class="container">
+        <input type="text" id="search" placeholder="Searh by Name..."/>  
+        <div class="filter-by-size">
+            <h2>filter by size</h2>
+            <select name="" id="" class="size-filter">
+                <option value="filter by size"hidden>filter-by-size</option>
+                <option value="all">All</option>
+                <option value="small">small</option>
+                <option value="meduim">meduim</option>
+                <option value="large">large</option>
+            </select>
+        </div>
+            <div class="products">
+                
+            </div>
+            
+            
+        </div>
+        <a href="creatproduct.html"id="" class="creat-product-icon"><i class="fa-sharp fa-solid fa-plus"></i></a>
+        
+    </section>
+    <script src="js/user.js"></script>
+    <script src="js/Data.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/cardmenu.js"></script>
+    <script src="file:///D:/websites%20edit/bootstrap/bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
+
